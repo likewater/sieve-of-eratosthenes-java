@@ -12,7 +12,7 @@ To find prime numbers less than or equal to a given integer _n_ by Eratosthenes'
 
 1. Create a list of consecutive integers from 2 through _n_: (2, 3, 4, 5, ..., _n_).
 1. Initially, let _p_ equal 2, the smallest prime number.
-1. Enumerate the multiples of _p_ by counting to _n_ from 2_p_ in increments of _p_, and mark them in the list (these will be 2_p_, 3_p_, 4_p_, ...; the _p_ itself should not be marked).
+1. Enumerate the multiples of _p_ by counting to _n_ from 2+_p_ in increments of _p_, and mark them in the list (these will be 2+_p_, 3+_p_, 4+_p_, ...; the _p_ itself should not be marked).
 1. Find the first number greater than _p_ in the list that is not marked. If there was no such number, stop. Otherwise, let _p_ now equal this new number (which is the next prime), and repeat from step 3.
 1. When the algorithm terminates, the numbers remaining not marked in the list are all the primes below _n_.
 
