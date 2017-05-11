@@ -29,6 +29,15 @@ To find prime numbers less than or equal to a given integer _n_ by Eratosthenes'
 
      Output: all i such that A[i] is true.
 
+## Installing A Command Line REPL In OSX
+For those of you with Macs, you can easily install javarepl onto your machine using Homebrew.
+
+To install [Homebrew], follow the instructions on Homebrew's website. Make sure to pay attention to the messages it gives you to configure your computer after it installs.
+
+Then, just type $ brew install javarepl. After it finishes, you can launch the REPL with $ javarepl.
+
+You can enter the Java REPL by typing $ javarepl in the terminal at any time. You can exit at any point by hitting Ctrl + C.
+
 ## Local Setup And Installation
 * Clone repository
 * more...
@@ -52,3 +61,4 @@ Copyright (c) 2017
 
 [license]: https://opensource.org/licenses/MIT
 [Sieve_of_Eratosthenes]: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
+[Homebrew]: http://brew.sh/
