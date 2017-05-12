@@ -7,6 +7,24 @@ I was reading the first column in the book "More Programming Pearls" by Jon Bent
 
 I want to start concentrating on Java and Clojure and I want to formalize my informal education by thinking about classical problems and algorithms. Already, the Programming Pearls books by Jon Bentley are proving their worth.
 
+## My Initial Problem solving
+Based on the pseudocode I knew I needed a list so I chose an array. I also knew I needed a series of for loops to move through the list and find the first integer (which should always be a prime number) then all multiples of it.
+
+I was able to construct some code that consisted of these things (arrays, loops) but never really worked. We had done unit testing in school and I thought this algorithm would be a good candidate for moving step by step through that process. I still found it hard.
+
+Alas, I could get numbers to print but never really zeroed in on how and where to use the arrays and the booleans.
+
+There is a point where fumbling about becomes unproductive and you just need to see an example or properly co-opt one to install and learn from.
+
+I found a great example of this solution at [code.geeksforgeeks] written by Amit Khandelwal.
+
+## What I Learned
+* My thought process based on the pseudocode was not far off but was still too generalized.
+* I think unit testing in a step by step process would be more valuable than hacking away at the problem with mixed results.
+* I love Amit's solution and here's why:
+    * It's a great example of using the main method as a pure starting point that simply defines a variable, prints some opening lines, creates an object and then calls a method within the object just created, passing that variable as the argument.
+    * The method that does all the work seems very concise and logical, doesn't even return anything, just adds a list of prime numbers at the end of the opening lines created in the main method.
+
 ## Basic Requirements
 To find prime numbers less than or equal to a given integer _n_ by Eratosthenes' method:
 
@@ -62,3 +80,4 @@ Copyright (c) 2017
 [license]: https://opensource.org/licenses/MIT
 [Sieve_of_Eratosthenes]: https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes
 [Homebrew]: http://brew.sh/
+[code.geeksforgeeks]: http://code.geeksforgeeks.org/index.php
